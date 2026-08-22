@@ -86,7 +86,7 @@ export default function Home() {
               to={{ opacity: 1, y: 0 }}
             />
             <BlurText
-              text="ReUseNet AI connects donors of reusable resources with the schools, NGOs and communities that need them most — matched by AI, prioritized by DSA, secured by operating-system discipline."
+              text="ReUseNet AI connects people and organizations with useful resources to the schools, NGOs and communities that need them most. Give what you don't need. Find what you do."
               delay={70}
               className="mt-5 text-base leading-relaxed text-muted-foreground sm:text-lg"
             />
@@ -146,10 +146,10 @@ export default function Home() {
                 Usable resources are thrown away while communities go without.
               </h2>
               <p className="mt-4 text-base leading-relaxed text-muted-foreground">
-                Laptops, books, furniture, projectors, sports equipment — tons of perfectly good resources end up in landfills because their owners no longer need them. Meanwhile, government schools, NGOs, orphanages and rural learning centers struggle with shortages.
+                Laptops, books, furniture, projectors, sports equipment and countless other useful items often go unused when someone no longer needs them. At the same time, schools, NGOs and community organizations struggle to access the resources they need.
               </p>
               <p className="mt-3 text-base leading-relaxed text-muted-foreground">
-                Current donation systems merely list items. They don't answer the hard questions: <strong className="text-foreground">who needs it most, which recipient is nearest, and which request should be prioritized?</strong> ReUseNet AI answers all three — intelligently.
+                ReUseNet AI makes it easier to move these resources where they can make a real difference — turning unused belongings into opportunities for someone else.
               </p>
             </ScrollReveal>
           </div>
@@ -164,10 +164,10 @@ export default function Home() {
               <ScrollReveal>
                 <p className="mb-2 text-sm font-semibold uppercase tracking-widest text-primary">The Intelligence</p>
                 <h2 className="font-display text-3xl font-bold leading-tight sm:text-4xl">
-                  Where AI, DSA and Operating Systems meet the mission.
+                  Making Every Resource Count
                 </h2>
                 <p className="mt-4 leading-relaxed text-muted-foreground">
-                  Every request is evaluated by a scoring model, ordered by a priority queue, matched through a location graph, and allocated under synchronization rules — a full stack of computer science serving a circular economy.
+                  Finding the right home for an unused resource shouldn't be difficult. ReUseNet AI helps connect available resources with genuine community needs, making it easier for people and organizations to give, discover and share what matters.
                 </p>
               </ScrollReveal>
             </div>

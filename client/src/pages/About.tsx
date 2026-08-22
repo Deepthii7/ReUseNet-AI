@@ -13,17 +13,17 @@ import { Button } from "@/components/ui/button";
 const MISSION_IMG = "/manus-storage/reusenet-about-mission_1662b3f5.png";
 
 const PILLARS = [
-  { icon: <Target className="h-5 w-5" />, title: "Minimize Waste", desc: "Every uploaded resource is one less item in a landfill — extending product lifecycles across the community." },
-  { icon: <Users className="h-5 w-5" />, title: "Support Communities", desc: "Government schools, NGOs, orphanages and rural centers get the resources they need, when they need them." },
-  { icon: <ShieldCheck className="h-5 w-5" />, title: "Fair & Transparent", desc: "Priority scores, demand levels and allocation decisions are visible to every participant." },
-  { icon: <BrainCircuit className="h-5 w-5" />, title: "Intelligent by Design", desc: "AI recommendation, DSA prioritization and OS-safe allocation turn a listing board into a distribution engine." },
+  { icon: <Target className="h-5 w-5" />, title: "Minimize Waste", desc: "Every shared resource gets a longer life, helping reduce unnecessary waste and keeping useful products in circulation." },
+  { icon: <Users className="h-5 w-5" />, title: "Support Communities", desc: "Connect schools, NGOs, community organizations and individuals with resources that can support their everyday needs." },
+  { icon: <ShieldCheck className="h-5 w-5" />, title: "Fair & Transparent", desc: "Clear information about resources and requests helps create a trustworthy and accessible sharing network." },
+  { icon: <BrainCircuit className="h-5 w-5" />, title: "Easy to Connect", desc: "Make it easier for people with useful resources to connect with communities and organizations that need them." },
 ];
 
 const TECH = [
-  { label: "AI / ML", detail: "scikit-learn recommendation, demand prediction & priority scoring" },
-  { label: "DSA", detail: "Priority Queue · Queue · Graph (Dijkstra) · Hash Map" },
-  { label: "Operating Systems", detail: "Resource allocation · Scheduling · Synchronization · Deadlock prevention" },
-  { label: "Full Stack", detail: "React + Vite frontend · FastAPI backend · MySQL · JWT auth" },
+  { label: "Smart Matching", detail: "Helps connect available resources with relevant community needs." },
+  { label: "Better Connections", detail: "Helps organize resources and requests so people can find relevant opportunities more easily." },
+  { label: "Reliable Allocation", detail: "Helps ensure that resources are allocated fairly and consistently, even when multiple requests are made." },
+  { label: "Built for Communities", detail: "Designed to support people, organizations and communities as they share resources and create meaningful connections." },
 ];
 
 export default function About() {
@@ -40,10 +40,10 @@ export default function About() {
                 className="font-display text-4xl font-bold leading-[1.1] tracking-tight sm:text-5xl"
               />
               <p className="mt-5 text-base leading-relaxed text-muted-foreground">
-                ReUseNet AI is an <strong className="text-foreground">intelligent circular resource exchange platform</strong>. It connects people, companies, colleges and institutions who have reusable but unwanted resources with the schools, NGOs and community organizations that need them most.
+                ReUseNet AI is a community-driven resource exchange platform that connects people, companies, colleges and institutions with schools, NGOs and community organizations that can make use of their unwanted but reusable resources.
               </p>
               <p className="mt-3 text-base leading-relaxed text-muted-foreground">
-                Beyond listing items, the platform decides <strong className="text-foreground">who needs the resource most, which recipient is nearest, and which request should be prioritized</strong> — using AI, data structures and operating-system discipline working together.
+                Beyond simply listing resources, ReUseNet AI helps make the process of finding, sharing and receiving useful items easier — helping resources reach communities where they can make the greatest difference.
               </p>
               <div className="mt-7">
                 <Link href="/register">
@@ -85,9 +85,9 @@ export default function About() {
           <div>
             <ScrollReveal>
               <p className="mb-2 text-sm font-semibold uppercase tracking-widest text-primary">The Science Behind It</p>
-              <h2 className="font-display text-3xl font-bold leading-tight sm:text-4xl">Computer science with a conscience.</h2>
+              <h2 className="font-display text-3xl font-bold leading-tight sm:text-4xl">How ReUseNet Makes a Difference</h2>
               <p className="mt-4 leading-relaxed text-muted-foreground">
-                ReUseNet AI is built as a serious application of core computer science: a scoring model recommends recipients, a priority queue schedules requests, a graph maps donor–recipient geography for shortest-path matching, and synchronization rules guarantee that two simultaneous requests for the same item can never both succeed.
+                ReUseNet AI uses smart matching and prioritization to connect available resources with genuine community needs, helping make the process of sharing and receiving resources more efficient.
               </p>
             </ScrollReveal>
             <div className="mt-8 grid gap-4 sm:grid-cols-2">
@@ -103,10 +103,10 @@ export default function About() {
             <div className="rounded-3xl border border-emerald-100 bg-white p-8 shadow-xl shadow-emerald-900/5">
               <h3 className="font-display text-xl font-bold">Why it matters</h3>
               <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-                A circular economy depends on movement — resources flowing from those who no longer need them to those who do. ReUseNet AI removes the friction: intelligence handles the matching, prioritization and safe allocation so that people can focus on the outcome that matters.
+                A useful item shouldn't become waste simply because its owner no longer needs it. ReUseNet AI helps keep resources moving — from people who have more than they need to communities that can put them to good use.
               </p>
               <div className="mt-6 flex flex-wrap gap-2">
-                {["Reduce waste", "Encourage reuse", "Support the underprivileged", "Improve distribution", "Circular economy"].map((tag) => (
+                {["Reduce waste • Encourage reuse • Support communities • Improve access"].map((tag) => (
                   <span key={tag} className="rounded-full border border-emerald-200 bg-emerald-50 px-3 py-1 text-xs font-medium text-emerald-800">
                     {tag}
                   </span>
